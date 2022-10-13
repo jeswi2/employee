@@ -9,11 +9,11 @@ export class SearchemployeeComponent implements OnInit {
 
   constructor() { }
 
-  employeeCode=""
+  employeecode=""
 
   readValues=()=>{
     let data={
-      "employeeCode":this.employeeCode
+      "employeecode":this.employeecode
     }
     console.log(data)
   }
